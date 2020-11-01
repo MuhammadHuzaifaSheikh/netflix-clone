@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
-import axios from "./axios";
-import './Row.css'
+import axios from "../../config/axios";
+import './row.css'
 import YouTube from "react-youtube";
 import movieTrailer from 'movie-trailer'
 const base_url = 'https://image.tmdb.org/t/p/original/'
@@ -73,9 +73,3 @@ function Row({title, fetchUrl, isLargeRow}) {
     )
 }
 export default Row
-
-
-//   API KEY = 252da5561f2137154a798b83e2503760;
-//  example api request =https://api.themoviedb.org/3/movie/550?api_key=252da5561f2137154a798b83e2503760
-
-// token = eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyNTJkYTU1NjFmMjEzNzE1NGE3OThiODNlMjUwMzc2MCIsInN1YiI6IjVmOGFiODJlZTlkYTY5MDAzOGVhZGRiOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.pRF7t7l6Dk-MhpfJycWy8VEI5vqRlSQ6OXeoaze_de0
